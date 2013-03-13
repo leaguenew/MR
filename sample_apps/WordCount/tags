@@ -1,0 +1,73 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BLOCK_ID	MarsInc.h	48;"	d
+CCFILES	Makefile	/^CCFILES		:= MarsUtils.cpp$/;"	m
+CEIL	MarsInc.h	38;"	d
+CUFILES	Makefile	/^CUFILES		:= main.cu MarsLib.cu MarsScan.cu MarsSort.cu$/;"	m
+DEFAULT_DIMBLOCK	MarsInc.h	84;"	d
+DEFAULT_NUMTASK	MarsInc.h	85;"	d
+DoLog	MarsInc.h	306;"	d
+DoLog	MarsInc.h	308;"	d
+EMIT_COUNT_FUNC	MarsInc.h	229;"	d
+EMIT_FUNC	MarsInc.h	252;"	d
+EMIT_INTERMEDIATE_FUNC	MarsInc.h	204;"	d
+EMIT_INTER_COUNT_FUNC	MarsInc.h	183;"	d
+EXECUTABLE	Makefile	/^EXECUTABLE	:= WordCount\/WordCount$/;"	m
+GET_KEY_FUNC	MarsInc.h	269;"	d
+GET_OUTPUT_BUF	MarsInc.h	267;"	d
+GET_VAL_FUNC	MarsInc.h	268;"	d
+MAP_COUNT_FUNC	MarsInc.h	174;"	d
+MAP_FUNC	MarsInc.h	189;"	d
+MAP_GROUP	MarsInc.h	88;"	d
+MAP_ONLY	MarsInc.h	87;"	d
+MAP_REDUCE	MarsInc.h	89;"	d
+PrintFunc_t	MarsInc.h	/^typedef void (*PrintFunc_t)(void* key, void* val, int keySize, int valSize);$/;"	t
+PrintOutputRecords	MarsUtils.cpp	/^void PrintOutputRecords(Spec_t* spec, int num, PrintFunc_t printFunc)$/;"	f
+REDUCE_COUNT_FUNC	MarsInc.h	219;"	d
+REDUCE_FUNC	MarsInc.h	236;"	d
+Spec_t	MarsInc.h	/^} Spec_t;$/;"	t	typeref:struct:__anon3
+THREAD_CONF	MarsInc.h	39;"	d
+THREAD_ID	MarsInc.h	49;"	d
+TID	MarsInc.h	50;"	d
+TimeVal_t	MarsInc.h	/^typedef struct timeval TimeVal_t;$/;"	t	typeref:struct:timeval
+WC_KEY_T	global.h	/^} WC_KEY_T;$/;"	t	typeref:struct:__anon1
+WC_VAL_T	global.h	/^} WC_VAL_T;$/;"	v	typeref:struct:__anon2
+__GLOBAL_H__	global.h	20;"	d
+__MRUTILS_CU__	MarsUtils.cpp	20;"	d	file:
+__SYSDEP_H__	MarsInc.h	20;"	d
+cmp_type_t	MarsInc.h	/^typedef int4 cmp_type_t;$/;"	t
+dimBlockMap	MarsInc.h	/^	int		dimBlockMap;$/;"	m	struct:__anon3
+dimBlockReduce	MarsInc.h	/^	int		dimBlockReduce;$/;"	m	struct:__anon3
+endTimer	MarsUtils.cpp	/^void endTimer(char *msg, TimeVal_t *start_tv)$/;"	f
+file	global.h	/^	char* file; $/;"	m	struct:__anon1
+inputKeys	MarsInc.h	/^	char*		inputKeys;$/;"	m	struct:__anon3
+inputOffsetSizes	MarsInc.h	/^	int4*		inputOffsetSizes;$/;"	m	struct:__anon3
+inputRecordCount	MarsInc.h	/^	int		inputRecordCount;$/;"	m	struct:__anon3
+inputVals	MarsInc.h	/^	char*		inputVals;$/;"	m	struct:__anon3
+interAllKeySize	MarsInc.h	/^	int		interAllKeySize;$/;"	m	struct:__anon3
+interAllValSize	MarsInc.h	/^	int		interAllValSize;$/;"	m	struct:__anon3
+interDiffKeyCount	MarsInc.h	/^	int		interDiffKeyCount;$/;"	m	struct:__anon3
+interKeyListRange	MarsInc.h	/^	int2*		interKeyListRange;$/;"	m	struct:__anon3
+interKeys	MarsInc.h	/^	char*		interKeys;$/;"	m	struct:__anon3
+interOffsetSizes	MarsInc.h	/^	int4*		interOffsetSizes;$/;"	m	struct:__anon3
+interRecordCount	MarsInc.h	/^	int		interRecordCount;$/;"	m	struct:__anon3
+interVals	MarsInc.h	/^	char*		interVals;$/;"	m	struct:__anon3
+line_offset	global.h	/^	int line_offset;$/;"	m	struct:__anon2
+line_size	global.h	/^	int line_size;$/;"	m	struct:__anon2
+numRecTaskMap	MarsInc.h	/^	int		numRecTaskMap;$/;"	m	struct:__anon3
+numRecTaskReduce	MarsInc.h	/^	int		numRecTaskReduce;$/;"	m	struct:__anon3
+outputAllKeySize	MarsInc.h	/^	int		outputAllKeySize;$/;"	m	struct:__anon3
+outputAllValSize	MarsInc.h	/^	int		outputAllValSize;$/;"	m	struct:__anon3
+outputDiffKeyCount	MarsInc.h	/^	int		outputDiffKeyCount;$/;"	m	struct:__anon3
+outputKeyListRange	MarsInc.h	/^	int2*		outputKeyListRange;$/;"	m	struct:__anon3
+outputKeys	MarsInc.h	/^	char*		outputKeys;$/;"	m	struct:__anon3
+outputOffsetSizes	MarsInc.h	/^	int4*		outputOffsetSizes;$/;"	m	struct:__anon3
+outputRecordCount	MarsInc.h	/^	int		outputRecordCount;$/;"	m	struct:__anon3
+outputToHost	MarsInc.h	/^	char		outputToHost;$/;"	m	struct:__anon3
+outputVals	MarsInc.h	/^	char*		outputVals;$/;"	m	struct:__anon3
+startTimer	MarsUtils.cpp	/^void startTimer(TimeVal_t *start_tv)$/;"	f
+workflow	MarsInc.h	/^	char		workflow;$/;"	m	struct:__anon3
